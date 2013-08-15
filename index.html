@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)http://motivation.chiumento.co.uk/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chiumento Motivational Indicators Report</title>
+
+<link rel="stylesheet" type="text/css" href="./chiumento_files/jquery-ui-1.8.16.custom.css">
+<link rel="stylesheet" type="text/css" href="./chiumento_files/styles.css">
+<link rel="stylesheet" type="text/css" media="print" href="./chiumento_files/print.css">
+
+<script src="./chiumento_files/jquery-1.6.3.min.js"></script>
+<script src="./chiumento_files/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="./chiumento_files/json2.js"></script>
+<script src="./chiumento_files/excanvas.min.js"></script>
+<script src="./chiumento_files/flot.js"></script>
+<script src="./chiumento_files/spider.js"></script>
+<script src="./chiumento_files/jquery.ui.touch-punch.min.js"></script>
+
+<script src="./chiumento_files/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="./chiumento_files/jquery.fancybox-1.3.4.css">
+
+</head>
+<body>
+
+<div id="wrap">
+        <div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+                <div id="topbar">
+                        <ul id="tabs-nav" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                                <li class="first ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="http://motivation.chiumento.co.uk/#tab-indicators">Indicators</a></li>
+                                <li class="disabled ui-state-default ui-corner-top ui-state-disabled"><a href="http://motivation.chiumento.co.uk/#tab-report">Meanings</a></li>
+                                <li class="disabled ui-state-default ui-corner-top ui-state-disabled"><a href="http://motivation.chiumento.co.uk/#tab-graph">Graph</a></li>
+                                <li class="disabled ui-state-default ui-corner-top ui-state-disabled"><a href="http://motivation.chiumento.co.uk/#tab-print">Full Report</a></li>
+                        </ul>
+                        <div id="poweredby">Powered by: <a href="http://www.chiumento.co.uk/" target="_BLANK"><img src="./chiumento_files/chilogo.gif"></a></div>
+                </div>
+                <div id="tab-indicators" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                        <p>What motivates you at work? Use drag and rank statements in each section to indicate preferences.
+                        Order the statements that you agree with most at the top, and the ones you agree with least at the bottom.</p>
+
+                                <div class="indicators ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 1</a></h3>
+                                    <div id="q-1" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="height: 210px;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">Great learning opportunities</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">Good job security</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">Regular pay rises</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">Working for an ethical business</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">Working in a friendly environment</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable">
+
+                                                        <li class="ui-droppable"></li>
+                                                        <li class="ui-droppable"></li>
+                                                        <li class="ui-droppable"></li>
+                                                        <li class="ui-droppable"></li>
+                                                        <li class="ui-droppable"></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 2</a></h3>
+
+                                    <div id="q-2" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">Achieving work-life balance</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">Seeing a future career path</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">Having a great manager</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">Being able to do a quality job</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">My status fairly reflects my worth</a></li>
+
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    
+									<h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 3</a></h3>
+                                    <div id="q-3" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">Receiving top class benefits such as pensions and healthcare</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">Working for an organisation that has a great reputation</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">Working for an organisation that reflects my personal values</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">Having a role that changes regularly</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">Having a clearly defined job role</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+									
+									
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 4</a></h3>
+                                    <div id="q-4" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">Working with a team of people I like</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">The opportunity to earn lots of bonus or commission</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">Having personal objectives that are easy to achieve</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">Working for a company that has a really great brand</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">Being constantly required to take on new challenges</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 5</a></h3>
+                                    <div id="q-5" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">Working for a company that impresses my friends and family</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">A job where I am set stretching targets</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">Being happy at work</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">A job where I get plenty of routine</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">Knowing that my financial rewards are amongst the best around</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 6</a></h3>
+                                    <div id="q-6" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">I need to see plenty of opportunity for promotion</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">Change can make me feel nervous</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">I need to enjoy what I do</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">The size of the organisation is really important (big or small)</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">I get bored without lots of variety</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 7</a></h3>
+                                    <div id="q-7" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">I need a job that fits around my life</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">I need to be seen as better at my job than others</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">I need to be part of a team</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">I believe working for the  right organisation is more important than what I am paid</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">I will leave if I feel I am not paid what I'm worth</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 8</a></h3>
+                                    <div id="q-8" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">Working for a top organisation is really important</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">I am important to my team</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">I think I work harder than others</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">I think I do a good job</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">Getting the material things I want is key to me feeling successful</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 9</a></h3>
+                                    <div id="q-9" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">I wouldn't want a promotion if it meant making sacrifices outside work</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">Personal growth is more important to me than money</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">I need to see my colleagues as friends</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">If the organisation is successful, I am successful</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">I come to work to earn money to do the things I want</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+                                    <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span><a href="http://motivation.chiumento.co.uk/#">Indicator 10</a></h3>
+                                    <div id="q-10" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 210px; display: none;">
+                                                <ul class="drag-from">
+
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-M ui-draggable" style="position: relative;">I am very aware of what I am worth on the market</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-A ui-draggable" style="position: relative;">I need to be the best I can</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-P ui-draggable" style="position: relative;">I am not sure of my worth outside my current organisation</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-T ui-draggable" style="position: relative;">I need to believe in what the organisation does</a></li>
+                                                        <li><a href="http://motivation.chiumento.co.uk/#" class="l-C ui-draggable" style="position: relative;">I need to have strong relationships with my colleagues</a></li>
+                                                </ul>
+
+                                                <ul class="drag-to ui-sortable" style="">
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                        <li class="ui-droppable" style=""></li>
+                                                </ul>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="clearfix"></div>
+                </div>
+
+                <div id="tab-report" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                        
+                        <p>Your answers have been mapped against those of 1,000 UK workers. If your score is above the total sample score then this factor is more important to you than is typical.</p>
+
+                        <div class="indicators-reports ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>Socialiser Indicator <b class="r-C-score"></b></h3>
+                                <div id="r-C-result" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="height: 100px;">
+                                        <h4><b>The socialiser indicator:</b></h4>
+                                        <p class="overview"></p>
+                                        <h4>What your score of <span class="r-C-score"></span> says about you:</h4>
+                                        <p class="result"></p>
+                                </div>
+
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>Protectionist Indicator <b class="r-P-score"></b></h3>
+                                <div id="r-P-result" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 100px; display: none;">
+                                        <h4>The protectionist indicator:</h4>
+                                        <p class="overview"></p>
+                                        <h4>What your score of <b class="r-P-score"></b> says about you:</h4>
+                                        <p class="result"></p>
+                                </div>
+
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>Materialist Indicator <b class="r-M-score"></b></h3>
+                                <div id="r-M-result" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 100px; display: none;">
+                                        <h4><b>The materialist indicator:</b></h4>
+                                        <p class="overview"></p>
+                                        <h4>What your score of <b class="r-M-score"></b> says about you:</h4>
+                                        <p class="result"></p>
+                                </div>
+
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>True Believer Indicator <b class="r-T-score"></b></h3>
+                                <div id="r-T-result" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 100px; display: none;">
+                                        <h4>The true believer indicator:</h4>
+                                        <p class="overview"></p>
+                                        <h4>What your score of <span class="r-T-score"></span> says about you:</h4>
+                                        <p class="result"></p>
+                                </div>
+
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="-1"><span class="ui-icon ui-icon-triangle-1-e"></span>Achiever Indicator <b class="r-A-score"></b></h3>
+                                <div id="r-A-result" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 100px; display: none;">
+                                        <h4>The achiever indicator:</h4>
+                                        <p class="overview"></p>
+                                        <h4>What your score of <span class="r-A-score"></span> says about you:</h4>
+                                        <p class="result"></p>
+                                </div>
+
+                        </div>
+                        <div class="clearfix"></div>
+                </div>
+
+                <div id="tab-graph" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                        
+						<p>The spider graph below plots the scores for each of the areas of motivation, against the scores of the average UK employee.</p>
+
+                        <hr>
+
+                        <div class="spidergraph"></div>
+                </div>
+
+                <div id="tab-print" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+					<a href="javascript:window.print()" class="icon-print"><img src="./chiumento_files/printer.png"></a>
+					<p><b>Motivation At Work Report</b></p>
+					<p>Thanks for taking the time to use this tool. We hope that by doing so you have gained insight into what motivates you at work.</p>
+
+					<hr>
+
+					<p class="section"><b>Section 1: Ranking</b></p>
+
+					<p id="p-ranking"></p>
+
+					<hr>
+
+					<p class="section"><b>Section 2: What it means about you</b></p>
+
+					<p id="p-C-result"><b>Socialiser</b> (<b class="r-C-score"></b>): <span class="result"></span></p>
+					<p id="p-P-result"><b>Protectionist</b> (<b class="r-P-score"></b>): <span class="result"></span></p>
+					<p id="p-M-result"><b>Materialist</b> (<b class="r-M-score"></b>): <span class="result"></span></p>
+					<p id="p-T-result"><b>True Believer</b> (<b class="r-T-score"></b>): <span class="result"></span></p>
+					<p id="p-A-result"><b>Achiever</b> (<b class="r-A-score"></b>): <span class="result"></span></p>
+
+					<hr>
+
+					<p class="section"><b>Section 3: Graph</b></p>
+
+					<div class="spidergraph2"></div>
+                </div>
+
+        </div>
+
+</div>
+
+<script src="./chiumento_files/custom.js"></script>
+
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>
